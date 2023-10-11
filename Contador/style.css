@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(37, 37, 209, 0.774);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(5, 5, 5, 0.466);
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    margin-top: 17vh;
+}
+
+h1 {
+    margin-left: 6vw;
+}
+
+div>button#contas {
+    width: 6vw;
+    margin-top: 1vh;
+    margin-left: -12vw;
+    height: 4vh;
+}
+
+div#msg {
+    text-align: center;
+    width: 19vw;
+    margin-top: 1vh;
+    margin-left: -1vw;
+    height: 23vh;
+    margin-bottom: -16vh;
+}
+
+div>select#numbercontas {
+    border: 1px solid black;
+    width: 15vw;
+    margin-left: -3vw;
+    height: 16vh;
+    margin-top: 1vh;
+}
+
+p#mensagemfinal {
+    margin-top: 19vh;
+    line-height: 31px;
+    margin-bottom: -10vh;
+}

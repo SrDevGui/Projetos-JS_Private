@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1> Analisador de numeros </h1>
+        <p>Numero (entre 1 e 100) <input type="number" name="num" id="takenumber" min="1"><button
+                value="adicionar numero" onclick="start()">Adicionar</button></p>
+        <div id="msg">
+            <select name="contas" id="numbercontas" size="3">
+                <option></option>
+            </select>
+            <br>
+            <button id="contas" onclick="finalizar()">Finalizar</button>
+        </div>
+        <p id="mensagemfinal"></p>
+        <footer>
+            <p> @SrDevBr</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
